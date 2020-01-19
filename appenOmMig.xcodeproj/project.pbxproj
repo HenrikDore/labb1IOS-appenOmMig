@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E31385F23CCC13F00552D50 /* profilbild circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E31385E23CCC13F00552D50 /* profilbild circle.png */; };
+		8E31386423CF41F900552D50 /* GuessNumberClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E31386323CF41F900552D50 /* GuessNumberClass.m */; };
+		8E3138B423D1E42500552D50 /* BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3138B323D1E42500552D50 /* BackgroundColor.m */; };
+		8E3138B623D1EA9900552D50 /* ithslogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E3138B523D1EA9900552D50 /* ithslogo.png */; };
+		8E3138B923D1F37800552D50 /* MyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3138B823D1F37800552D50 /* MyManager.m */; };
+		8E3138BC23D1F95400552D50 /* BackgroundColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3138BB23D1F95400552D50 /* BackgroundColors.m */; };
 		8E7DB68623CC7DDE0059A9AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DB68523CC7DDE0059A9AB /* AppDelegate.m */; };
 		8E7DB68923CC7DDE0059A9AB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DB68823CC7DDE0059A9AB /* SceneDelegate.m */; };
 		8E7DB68C23CC7DDE0059A9AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7DB68B23CC7DDE0059A9AB /* ViewController.m */; };
@@ -36,6 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E31385E23CCC13F00552D50 /* profilbild circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profilbild circle.png"; path = "../../../Downloads/profilbild circle.png"; sourceTree = "<group>"; };
+		8E31386223CF41F900552D50 /* GuessNumberClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuessNumberClass.h; sourceTree = "<group>"; };
+		8E31386323CF41F900552D50 /* GuessNumberClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessNumberClass.m; sourceTree = "<group>"; };
+		8E3138B223D1E42500552D50 /* BackgroundColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackgroundColor.h; sourceTree = "<group>"; };
+		8E3138B323D1E42500552D50 /* BackgroundColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackgroundColor.m; sourceTree = "<group>"; };
+		8E3138B523D1EA9900552D50 /* ithslogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ithslogo.png; path = ../../ithslogo.png; sourceTree = "<group>"; };
+		8E3138B723D1F37800552D50 /* MyManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyManager.h; sourceTree = "<group>"; };
+		8E3138B823D1F37800552D50 /* MyManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyManager.m; sourceTree = "<group>"; };
+		8E3138BA23D1F95400552D50 /* BackgroundColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackgroundColors.h; sourceTree = "<group>"; };
+		8E3138BB23D1F95400552D50 /* BackgroundColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackgroundColors.m; sourceTree = "<group>"; };
 		8E7DB68123CC7DDE0059A9AB /* appenOmMig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appenOmMig.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7DB68423CC7DDE0059A9AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8E7DB68523CC7DDE0059A9AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -104,6 +120,9 @@
 		8E7DB68323CC7DDE0059A9AB /* appenOmMig */ = {
 			isa = PBXGroup;
 			children = (
+				8E3138B523D1EA9900552D50 /* ithslogo.png */,
+				8E3138B223D1E42500552D50 /* BackgroundColor.h */,
+				8E3138B323D1E42500552D50 /* BackgroundColor.m */,
 				8E7DB68423CC7DDE0059A9AB /* AppDelegate.h */,
 				8E7DB68523CC7DDE0059A9AB /* AppDelegate.m */,
 				8E7DB68723CC7DDE0059A9AB /* SceneDelegate.h */,
@@ -111,10 +130,17 @@
 				8E7DB68A23CC7DDE0059A9AB /* ViewController.h */,
 				8E7DB68B23CC7DDE0059A9AB /* ViewController.m */,
 				8E7DB68D23CC7DDE0059A9AB /* Main.storyboard */,
-				8E7DB69023CC7DE40059A9AB /* Assets.xcassets */,
+				8E31386223CF41F900552D50 /* GuessNumberClass.h */,
+				8E31386323CF41F900552D50 /* GuessNumberClass.m */,
+				8E3138BA23D1F95400552D50 /* BackgroundColors.h */,
+				8E3138BB23D1F95400552D50 /* BackgroundColors.m */,
+				8E3138B723D1F37800552D50 /* MyManager.h */,
+				8E3138B823D1F37800552D50 /* MyManager.m */,
+				8E31385E23CCC13F00552D50 /* profilbild circle.png */,
 				8E7DB69223CC7DE40059A9AB /* LaunchScreen.storyboard */,
 				8E7DB69523CC7DE40059A9AB /* Info.plist */,
 				8E7DB69623CC7DE40059A9AB /* main.m */,
+				8E7DB69023CC7DE40059A9AB /* Assets.xcassets */,
 			);
 			path = appenOmMig;
 			sourceTree = "<group>";
@@ -240,6 +266,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E3138B623D1EA9900552D50 /* ithslogo.png in Resources */,
+				8E31385F23CCC13F00552D50 /* profilbild circle.png in Resources */,
 				8E7DB69423CC7DE40059A9AB /* LaunchScreen.storyboard in Resources */,
 				8E7DB69123CC7DE40059A9AB /* Assets.xcassets in Resources */,
 				8E7DB68F23CC7DDE0059A9AB /* Main.storyboard in Resources */,
@@ -267,10 +295,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E31386423CF41F900552D50 /* GuessNumberClass.m in Sources */,
+				8E3138B923D1F37800552D50 /* MyManager.m in Sources */,
 				8E7DB68C23CC7DDE0059A9AB /* ViewController.m in Sources */,
 				8E7DB68623CC7DDE0059A9AB /* AppDelegate.m in Sources */,
+				8E3138B423D1E42500552D50 /* BackgroundColor.m in Sources */,
 				8E7DB69723CC7DE40059A9AB /* main.m in Sources */,
 				8E7DB68923CC7DDE0059A9AB /* SceneDelegate.m in Sources */,
+				8E3138BC23D1F95400552D50 /* BackgroundColors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +474,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TTAWR9TQMD;
 				INFOPLIST_FILE = appenOmMig/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +492,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TTAWR9TQMD;
 				INFOPLIST_FILE = appenOmMig/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

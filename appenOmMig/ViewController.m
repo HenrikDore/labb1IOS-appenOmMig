@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "MyManager.h"
+#import "BackgroundColor.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    MyManager *sharedManager = [MyManager sharedManager];
+    
+    [sharedManager changeColor];
+    
+    
+    
+}
+   
+- (IBAction)ChangeBackgroundClr:(id)sender {
+    
 }
 
 
